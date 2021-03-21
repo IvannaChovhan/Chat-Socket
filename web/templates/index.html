@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+<!--
+{% if login %}
+{% block messsage %}{{session["name"]}}Welcome!{% endblock %}
+{% endif %} -->
+
+
+{% block content %}
+<div id="test" class="d-flex flex-column"></div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Send Message" aria-label="Message" id="msg">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="sendBtn">Send</button>
+        </div>
+      </div>    
+{% endblock %}

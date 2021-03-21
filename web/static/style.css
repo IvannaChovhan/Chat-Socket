@@ -1,0 +1,21 @@
+.msg, .self_msg {
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+}
+.self_msg {
+    background-color: #78e08f;
+    align-self: flex-end;
+}
+.msg {
+    background-color: #82ccdd;
+}
+.name{
+    margin: 0;
+}
+
+#test {
+    min-height: 70vh;
+    align-items: baseline;
+    justify-content: flex-end;
+}
